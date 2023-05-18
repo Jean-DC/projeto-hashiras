@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #878181ad;
+    color: rgb(32, 32, 32);
+}
+
+body.modo-escuro{
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+header .demon-slayer{
+    width: 70px;
+    border: none;
+    background: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+header .imagem-brinco{
+    width: 70px;
+    transition: 0.2s ease-in-out;
+
+}
+
+header #botao-alterar-tema{
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+
+header .demon-slayer:hover,
+header .imagem-brinco:hover{
+    transform:scale(1.05);
+
+}
+
+main{
+    padding: 25px;
+}
+
+main .listagem-hashiras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-hashiras{
+    width: 500px;
+    padding: 15px;
+    background-color: rgb(129, 96, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-hashiras:hover{
+    background-color: #bb8f9c;
+    transform:scale(1.05);
+
+}
+
+.modo-escuro .cartao-hashiras{
+    background-color: #a8a8a8;
+
+}
+
+span{
+    border: 1px solid #333333;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+}
+
+.gif{
+    width: 400px;
+    
+}
+
+main .listagem-hashiras .tipos{
+    display: flex;
+   justify-content: center;
+   font-size: 17px;
+
+}main .listagem-hashiras .tipo{
+    padding: 7px;
+    border-radius: 17px;
+
+}
+
+.chama{
+    background: #cb3e0f;   
+}
+
+.agua{
+    background-color: aqua;
+}
+
+.inseto{
+    background-color: rgb(93, 49, 123);
+}
+.vento{
+    background-color: rgb(150, 146, 146);
+}
+.som{
+    background-color: rgb(197, 177, 92);
+}
+.amor{
+    background-color: rgb(166, 36, 36);
+}
+.serpente{
+    background-color: rgb(88, 146, 88);
+}
+.nevoa{
+    background-color: rgb(142, 185, 185);
+}
+.pedra{
+    background-color: rgb(97, 89, 89);
+}
+
+.descricao{
+    max-height: 70px;
+    overflow-y: scroll;
+    padding-right: 10px;
+    font-size: 15px;
+}
